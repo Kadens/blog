@@ -41,3 +41,5 @@
 Would you like me to **list the exact lab repos** for Azure AI Search (with direct GitHub links) so you can try the demos yourself?  
 
 Sources: 
+
+[Home](./Readme.md)
