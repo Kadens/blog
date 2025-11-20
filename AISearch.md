@@ -42,4 +42,4 @@ Would you like me to **list the exact lab repos** for Azure AI Search (with dire
 
 Sources: 
 
-[Home](./Readme.md)
+[Home](README.md)
