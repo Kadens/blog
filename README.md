@@ -54,4 +54,5 @@ Sources:
 #  Resources
 - [Azure AI Search](AISearch.md)
 - [Build your skills to experience the latest AI innovations](https://learn.microsoft.com/en-us/training/topics/ignite/?tabs=migrate-and-modernize-your-estate%2Cmodernize-secops-with-a-unified-platform%2Ccopilot-and-agents-at-work%2Cskilling)
+- [LAB511: Build Agentic Knowledge Bases: Next-Level RAG with Azure AI Search](https://github.com/microsoft/ignite25-LAB511-build-agentic-knowledge-bases-next-level-rag-with-azure-ai-search)
 
