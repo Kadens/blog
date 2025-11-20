@@ -51,4 +51,7 @@ Would you like me to highlight the **most technical repo with hands-on code samp
 
 Sources: 
 
+#  Resources
+- [Azure AI Search](AISearch.md)
+- 
 
