@@ -1,0 +1,1328 @@
+{
+  "version": "miro_api_items_v2",
+  "title": "DDD Event Storming – Syntetisk testdata (FREG, HPR, Fastlege, Enhetsregisteret)",
+  "generatedAt": "2026-02-05T19:40:34Z",
+  "canvas": {
+    "width": 16000,
+    "height": 9000,
+    "units": "px"
+  },
+  "items": [
+    {
+      "id": "frame_27e8ce31",
+      "type": "frame",
+      "title": "SEKSJON 1 – Big Picture Event Storming (Tidslinje)",
+      "x": 200,
+      "y": 200,
+      "width": 6000,
+      "height": 3180,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "frame_13a13acf",
+      "type": "frame",
+      "title": "FREG – Domain Events",
+      "x": 400,
+      "y": 380,
+      "width": 2700,
+      "height": 1320,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "frame_56f33772",
+      "type": "frame",
+      "title": "HPR – Domain Events",
+      "x": 3300,
+      "y": 380,
+      "width": 2700,
+      "height": 1320,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "frame_97ad5d12",
+      "type": "frame",
+      "title": "Fastlegeordningen – Domain Events",
+      "x": 400,
+      "y": 1880,
+      "width": 2700,
+      "height": 1320,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "frame_b6b41147",
+      "type": "frame",
+      "title": "Enhetsregisteret – Domain Events",
+      "x": 3300,
+      "y": 1880,
+      "width": 2700,
+      "height": 1320,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_b1159dea",
+      "type": "sticky_note",
+      "text": "Person Registrert i FREG",
+      "x": 520,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_b05e4629",
+      "type": "sticky_note",
+      "text": "Adresse Endret i FREG",
+      "x": 840,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_9973f264",
+      "type": "sticky_note",
+      "text": "Sivilstand Endret",
+      "x": 1160,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_31cd3ed2",
+      "type": "sticky_note",
+      "text": "Flytting Registrert",
+      "x": 520,
+      "y": 700,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_64610b82",
+      "type": "sticky_note",
+      "text": "Dødsfall Registrert",
+      "x": 840,
+      "y": 700,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_6dc4f834",
+      "type": "sticky_note",
+      "text": "Helsepersonell Autorisert",
+      "x": 3420,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_8a5eca05",
+      "type": "sticky_note",
+      "text": "Autorisasjon Trukket",
+      "x": 3740,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_e7e75606",
+      "type": "sticky_note",
+      "text": "Spesialitet Oppdatert",
+      "x": 4060,
+      "y": 500,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_aa008f8a",
+      "type": "sticky_note",
+      "text": "Fastlegehjemmel Opprettet",
+      "x": 520,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_43e1ce18",
+      "type": "sticky_note",
+      "text": "Fastlegehjemmel Endret Kapasitet",
+      "x": 840,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_cf6afb06",
+      "type": "sticky_note",
+      "text": "Innbygger Tildelt Fastlege",
+      "x": 1160,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_aa102856",
+      "type": "sticky_note",
+      "text": "Innbygger Byttet Fastlege",
+      "x": 520,
+      "y": 2200,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_fd69d9d3",
+      "type": "sticky_note",
+      "text": "Fastlegeliste Stengt",
+      "x": 840,
+      "y": 2200,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_e4b1a9fd",
+      "type": "sticky_note",
+      "text": "Fastlege Avslutter Tjenesteforhold",
+      "x": 1160,
+      "y": 2200,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_caf4c50a",
+      "type": "sticky_note",
+      "text": "Organisasjon Registrert",
+      "x": 3420,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_812bd663",
+      "type": "sticky_note",
+      "text": "Organisasjon Endret",
+      "x": 3740,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_1a3f128c",
+      "type": "sticky_note",
+      "text": "Organisasjon Avviklet",
+      "x": 4060,
+      "y": 2000,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_5076c07a",
+      "type": "sticky_note",
+      "text": "Underenhet Opprettet",
+      "x": 3420,
+      "y": 2200,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_5d5d4fa9",
+      "type": "sticky_note",
+      "text": "Organisasjon Fusjonert",
+      "x": 3740,
+      "y": 2200,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFA500",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_b3caf715",
+      "type": "frame",
+      "title": "SEKSJON 2 – Ubiquitous Language (Begreper)",
+      "x": 6600,
+      "y": 200,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_5eec8c93",
+      "type": "sticky_note",
+      "text": "Person",
+      "x": 6720,
+      "y": 320,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_dd745f39",
+      "type": "sticky_note",
+      "text": "Fødselsnummer / D-nummer",
+      "x": 7040,
+      "y": 320,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_6b018044",
+      "type": "sticky_note",
+      "text": "Adresse",
+      "x": 7360,
+      "y": 320,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_22e38e3a",
+      "type": "sticky_note",
+      "text": "Kommune",
+      "x": 6720,
+      "y": 520,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_b9d83c2c",
+      "type": "sticky_note",
+      "text": "Fastlege",
+      "x": 7040,
+      "y": 520,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_268f3eab",
+      "type": "sticky_note",
+      "text": "Fastlegehjemmel",
+      "x": 7360,
+      "y": 520,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_4cbf9b5c",
+      "type": "sticky_note",
+      "text": "Listekapasitet",
+      "x": 6720,
+      "y": 720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_9a0f28d3",
+      "type": "sticky_note",
+      "text": "Innbygger–fastlege‑relasjon",
+      "x": 7040,
+      "y": 720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_ba4edd25",
+      "type": "sticky_note",
+      "text": "Helsepersonell",
+      "x": 7360,
+      "y": 720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_78fa0434",
+      "type": "sticky_note",
+      "text": "HPR-nummer",
+      "x": 6720,
+      "y": 920,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_ee12b5fa",
+      "type": "sticky_note",
+      "text": "Autorisasjon",
+      "x": 7040,
+      "y": 920,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_baefe218",
+      "type": "sticky_note",
+      "text": "Spesialitet",
+      "x": 7360,
+      "y": 920,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_32b52d7b",
+      "type": "sticky_note",
+      "text": "Organisasjon (BRREG)",
+      "x": 6720,
+      "y": 1120,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_9f4a0caf",
+      "type": "sticky_note",
+      "text": "Underenhet",
+      "x": 7040,
+      "y": 1120,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_10102939",
+      "type": "sticky_note",
+      "text": "Skjerming (fortrolig, strengt fortrolig)",
+      "x": 7360,
+      "y": 1120,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_587e812e",
+      "type": "sticky_note",
+      "text": "Verge",
+      "x": 6720,
+      "y": 1320,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_7643aa3d",
+      "type": "frame",
+      "title": "SEKSJON 3 – Commands",
+      "x": 200,
+      "y": 3740,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_b76f433c",
+      "type": "sticky_note",
+      "text": "Synkroniser Persondata fra FREG",
+      "x": 320,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_2e7ea994",
+      "type": "sticky_note",
+      "text": "Oppdater Adresse",
+      "x": 640,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_7fd5c8c8",
+      "type": "sticky_note",
+      "text": "Tildel Fastlege til Innbygger",
+      "x": 960,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_c978c1c1",
+      "type": "sticky_note",
+      "text": "Bytt Fastlege",
+      "x": 320,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_1ca0ec3a",
+      "type": "sticky_note",
+      "text": "Valider HPR-autorisasjon",
+      "x": 640,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_0d2b6290",
+      "type": "sticky_note",
+      "text": "Oppdater Fastlegekapasitet",
+      "x": 960,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_4e0b839b",
+      "type": "sticky_note",
+      "text": "Migrer Hjemler (ved fusjon)",
+      "x": 320,
+      "y": 4260,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_08052282",
+      "type": "sticky_note",
+      "text": "Opprett Organisasjon",
+      "x": 640,
+      "y": 4260,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_f5f63a98",
+      "type": "sticky_note",
+      "text": "Oppdater Organisasjon",
+      "x": 960,
+      "y": 4260,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#4F6BED",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_9bd9cdf4",
+      "type": "frame",
+      "title": "SEKSJON 4 – Policies / Regler",
+      "x": 3300,
+      "y": 3740,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_96c1455a",
+      "type": "sticky_note",
+      "text": "Når Adresse Endret → vurder bytterett",
+      "x": 3420,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_16810a7c",
+      "type": "sticky_note",
+      "text": "Når Autorisasjon Utløper → sperr hjemmel",
+      "x": 3740,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_81d4828a",
+      "type": "sticky_note",
+      "text": "Når Person Registreres → tildel fastlege basert på kommune",
+      "x": 4060,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_8c06a52a",
+      "type": "sticky_note",
+      "text": "Når Organisasjon Fusjoneres → migrer hjemler og lister",
+      "x": 3420,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_d0cdb203",
+      "type": "sticky_note",
+      "text": "Når Listekapasitet = 0 → steng liste",
+      "x": 3740,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_fbfe0414",
+      "type": "sticky_note",
+      "text": "Når Skjermet Adresse → bruk surrogatadresse i testdata",
+      "x": 4060,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#00CC88",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_da537482",
+      "type": "frame",
+      "title": "SEKSJON 5 – Aggregates",
+      "x": 6400,
+      "y": 3740,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_111bdbdd",
+      "type": "sticky_note",
+      "text": "Person",
+      "x": 6520,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_305b7faf",
+      "type": "sticky_note",
+      "text": "Fastlegehjemmel",
+      "x": 6840,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_5b135f1a",
+      "type": "sticky_note",
+      "text": "InnbyggerFastlegeRelasjon",
+      "x": 7160,
+      "y": 3860,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_234855c0",
+      "type": "sticky_note",
+      "text": "Helsepersonell",
+      "x": 6520,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_3eae4eea",
+      "type": "sticky_note",
+      "text": "Organisasjon",
+      "x": 6840,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_97c8aa1b",
+      "type": "sticky_note",
+      "text": "ListeKapasitet",
+      "x": 7160,
+      "y": 4060,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_289f7fd9",
+      "type": "sticky_note",
+      "text": "AdresseHistorikk",
+      "x": 6520,
+      "y": 4260,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#8C52FF",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_1f397662",
+      "type": "frame",
+      "title": "SEKSJON 6 – Bounded Contexts",
+      "x": 200,
+      "y": 1880,
+      "width": 6000,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "text_08556d57",
+      "type": "text",
+      "text": "**Person Context (FREG / Persontjenesten)**\n\nAdresse, status, persondata; events fra FREG; leverer read‑models til Fastlege Context",
+      "x": 320,
+      "y": 2000,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_b27117cf",
+      "type": "text",
+      "text": "**HPR Context**\n\nAutorisasjon, tjenestested, HPR‑nummer",
+      "x": 940,
+      "y": 2000,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_4d0b9118",
+      "type": "text",
+      "text": "**Fastlege Context (HELFO)**\n\nHjemler, tildeling, kapasitet, bytterett",
+      "x": 1560,
+      "y": 2000,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_f05ab30d",
+      "type": "text",
+      "text": "**Organisasjon Context (BRREG)**\n\nEnheter, underenheter, fusjoner",
+      "x": 320,
+      "y": 2300,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_b228fffd",
+      "type": "text",
+      "text": "**Integrasjons / Sync Context**\n\nAdaptere mot FREG/HPR/BRREG; event‑dispatch",
+      "x": 940,
+      "y": 2300,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_5db44b51",
+      "type": "text",
+      "text": "**Sikkerhet & Tilgang Context**\n\nSkjerming, verge, autorisasjonskontroll",
+      "x": 1560,
+      "y": 2300,
+      "width": 580,
+      "height": 220,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "frame_4ad069a7",
+      "type": "frame",
+      "title": "SEKSJON 7 – Prosessflyter (Design Level)",
+      "x": 6400,
+      "y": 1880,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "text_e0d87f61",
+      "type": "text",
+      "text": "**Happy path**\nNy person → registrert i FREG → tildelt fastlege → kapasitet redusert",
+      "x": 6520,
+      "y": 2000,
+      "width": 720,
+      "height": 180,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 20
+      }
+    },
+    {
+      "id": "text_1b8dec56",
+      "type": "text",
+      "text": "**Edge case 1**\nLege mister autorisasjon → hjemmel sperres → innbyggere re‑tildeles",
+      "x": 6520,
+      "y": 2220,
+      "width": 720,
+      "height": 180,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 20
+      }
+    },
+    {
+      "id": "text_e0403645",
+      "type": "text",
+      "text": "**Edge case 2**\nFlytting over kommunegrense → vurder bytterett → ny fastlege",
+      "x": 6520,
+      "y": 2440,
+      "width": 720,
+      "height": 180,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 20
+      }
+    },
+    {
+      "id": "text_d5e2273d",
+      "type": "text",
+      "text": "**Edge case 3**\nOrganisasjon fusjoneres → hjemler og lister migreres",
+      "x": 6520,
+      "y": 2660,
+      "width": 720,
+      "height": 180,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 20
+      }
+    },
+    {
+      "id": "frame_571dc527",
+      "type": "frame",
+      "title": "SEKSJON 8 – Dataspesifikasjon for syntetisk data",
+      "x": 6600,
+      "y": 1880,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "text_01df7b1e",
+      "type": "text",
+      "text": "**Person**\n- syntetisk_fnr\n- navn\n- adresse\n- kommune\n- status\n- skjerming",
+      "x": 6720,
+      "y": 2000,
+      "width": 660,
+      "height": 300,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_1f9d738f",
+      "type": "text",
+      "text": "**HPR**\n- syntetisk_hprnr\n- profesjon\n- autorisasjon_status",
+      "x": 7420,
+      "y": 2000,
+      "width": 660,
+      "height": 300,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_5cdf4350",
+      "type": "text",
+      "text": "**Fastlegehjemmel**\n- hjemmel_id\n- lege_hprnr\n- kapasitet_total/ledig\n- orgnr_praksis",
+      "x": 6720,
+      "y": 2360,
+      "width": 660,
+      "height": 300,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "text_4a91371a",
+      "type": "text",
+      "text": "**Organisasjon**\n- syntetisk_orgnr\n- navn\n- status",
+      "x": 7420,
+      "y": 2360,
+      "width": 660,
+      "height": 300,
+      "style": {
+        "textColor": "#1F2328",
+        "fontSize": 18
+      }
+    },
+    {
+      "id": "frame_67d280ca",
+      "type": "frame",
+      "title": "SEKSJON 9 – Syntetisk Data Pipeline",
+      "x": 200,
+      "y": 5600,
+      "width": 6000,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_9350bb94",
+      "type": "sticky_note",
+      "text": "1) Generér organisasjoner (BRREG)",
+      "x": 320,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_bba7d716",
+      "type": "sticky_note",
+      "text": "2) Generér helsepersonell (HPR)",
+      "x": 640,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_edde3ebc",
+      "type": "sticky_note",
+      "text": "3) Generér personer (FREG‑lik syntese)",
+      "x": 960,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_43f63b05",
+      "type": "sticky_note",
+      "text": "4) Match personer til fastlege",
+      "x": 1280,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_6bc5d19e",
+      "type": "sticky_note",
+      "text": "5) Simulér hendelser over tid",
+      "x": 1600,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_7e435bc3",
+      "type": "sticky_note",
+      "text": "6) Eksporter event‑log + materialiserte tabeller",
+      "x": 1920,
+      "y": 5720,
+      "width": 300,
+      "height": 160,
+      "style": {
+        "fillColor": "#FFD02F",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "frame_63aecee4",
+      "type": "frame",
+      "title": "SEKSJON 10 – Pain Points & Risks",
+      "x": 6400,
+      "y": 5600,
+      "width": 2900,
+      "height": 1500,
+      "style": {
+        "strokeColor": "#1F2328",
+        "fillColor": "#F8F9FB"
+      }
+    },
+    {
+      "id": "sticky_ac0266d3",
+      "type": "sticky_note",
+      "text": "Ulike oppfatninger om begreper",
+      "x": 6520,
+      "y": 5720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FF4F8B",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_7dcd69a1",
+      "type": "sticky_note",
+      "text": "Adresser og kommunetilhørighet komplisert",
+      "x": 6840,
+      "y": 5720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FF4F8B",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_81573747",
+      "type": "sticky_note",
+      "text": "Skjerming krever egne datastrategier",
+      "x": 7160,
+      "y": 5720,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FF4F8B",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_79ca91e3",
+      "type": "sticky_note",
+      "text": "Hjemler kan være midlertidige",
+      "x": 6520,
+      "y": 5920,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FF4F8B",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "sticky_d7ff36bc",
+      "type": "sticky_note",
+      "text": "Fusjoner → vanskelig konsistenshåndtering",
+      "x": 6840,
+      "y": 5920,
+      "width": 280,
+      "height": 160,
+      "style": {
+        "fillColor": "#FF4F8B",
+        "textColor": "#1F2328",
+        "fontSize": 16
+      }
+    }
+  ]
+}
